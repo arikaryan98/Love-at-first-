@@ -50,7 +50,7 @@ table {
 	border-spacing: 0;
 }
 .container {
-    margin: 10%;
+    margin: 2%;
 }
 
 
@@ -60,7 +60,7 @@ table {
   background-color: white;
     height: 3vh;
     width: 80%;
-   
+    margin-bottom: 5%;
  
    
 
@@ -70,6 +70,7 @@ table {
     color: black;
     margin-right: 3%;
     font-size: 1em;
+   
 
 }
 .header{
@@ -92,7 +93,7 @@ height: 90%;
 
 
     background-color: #013A6B;
-    background-image: -webkit-linear-gradient(30deg, #74b9ff 50%,#ffcccc 50%);
+    background-image: -webkit-linear-gradient(-30deg, #74b9ff 50%,#ffcccc 50%);
     min-height: 500px;
     
 }
@@ -135,6 +136,39 @@ height: 90%;
     color: black;
     font-size: .75em;
 }
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-34.6deg,#9b59b6 50%,#FDA7DF 50%);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+    
+}
+.about-me p {
+    font-size: 1.7em;
+    width: 30%;
+    align-self: center;
+    margin-left: 5%;
+    color: white;
+  
+}
+
+.about-me img {
+    align-self: center;
+  width: 40%;
+  height: 40%;
+margin-right: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8), 0 6px 10px 0 rgba(0, 0, 0, .6);
+  
+  
+
+}
+.
+
+
 a {
     text-decoration: none;
 }
