@@ -45,10 +45,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 .container {
     margin: 2%;
 }
@@ -82,60 +79,84 @@ width: 90%;
 height: 90%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cards {
-    display: flex;
     
-   width: 100%;
-   height: 1000px;
-  
-
-
-
-
+    display: flex;
     background-color: #013A6B;
     background-image: -webkit-linear-gradient(-30deg, #74b9ff 50%,#ffcccc 50%);
     min-height: 500px;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+  
 }
 
 
 .card {
-    margin: 2%;
-    background-color: pink;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap; 
+    margin-top: 2%;
+   margin-right: 2%;
+   margin-bottom: 2%;
+    height: 20%;
+    width: 20%;
+    background-color: rebeccapurple;
+    padding: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8), 0 6px 10px 0 rgba(0, 0, 0, .6);
-    height: auto;
-    width:25%;
-    padding-bottom: 1%;
+   
 }
-
+.card h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    width: 100%
+   
+}
 .card img {
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 25%;
-    width: 80%;
-    padding-top: 10%;
-   
-    
-}
-.card-center h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    color: white;
-    font-size: 1.5em;
- 
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 90%;
 }
 
-.card-center p {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10%;
+.card p {
+   
     color: white;
-    font-size: .75em;
+    font-size: 1.2rem;
+    margin-left: 7%;
+    margin-bottom: 5%;
 }
+
+.card a {
+    font-size: 200%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .8), 0 6px 10px 0 rgba(0, 0, 0, .6);
+}
+
+
+
+
+
+
+
+
 
 .about-me {
     display: flex;
@@ -166,10 +187,42 @@ margin-right: 5%;
   
 
 }
-.
+
+.a-h {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem
+}
+.img {
+   display: flex;
+   justify-content: center;
+
+}
+.img img {
+    height: 25%;
+}
 
 
 a {
     text-decoration: none;
 }
+.post-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+
+.post-content h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+}
+.post-content p {
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    line-height: 1.5em;
+    width: 90%;
+}
