@@ -98,7 +98,7 @@ height: 90%;
     
     display: flex;
     background-color: #c5d5ea;
-    background-image: -webkit-linear-gradient(-30deg, #c5dac1 50%,#c5d5ea 50%);
+    background-image: -webkit-linear-gradient(-30deg, #fce0e9 50%,#c5d5ea 50%);
     min-height: 500px;
     justify-content: center;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@ height: 90%;
     display: flex;
     justify-content: space-between;
     background-color: #c5dac1;
-    background-image: -webkit-linear-gradient(-34.6deg,#fce0e9 50%,#c5d5ea 50%);
+    background-image: -webkit-linear-gradient(-34.6deg,#c5d5ea 50%,#fce0e9 50%);
     padding-top: 15%;
     padding-bottom: 15%;
     
