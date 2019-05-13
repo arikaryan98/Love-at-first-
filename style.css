@@ -20,7 +20,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 150%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -162,7 +162,7 @@ height: 90%;
     display: flex;
     justify-content: space-between;
     background-color: #c5dac1;
-    background-image: -webkit-linear-gradient(-34.6deg,#c5d5ea 50%,#fce0e9 50%);
+    background-image: -webkit-linear-gradient(-34.6deg,#fce0e9 50%,#c5d5ea 50%);
     padding-top: 15%;
     padding-bottom: 15%;
     
